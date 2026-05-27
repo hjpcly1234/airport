@@ -25,7 +25,7 @@ jobs:
           pip install requests beautifulsoup4
 
       - name: 🚀 执行精简版爬虫
-        run: python py/crawl.py
+        run: python subs/crawl.py
 
       - name: 💾 将更新后的 JSON 自动推送到仓库
         run: |
