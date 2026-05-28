@@ -19,7 +19,7 @@ BACKUP_DOMAIN = "https://huangsecangku.net"
 RESULT_JSON   = "日韩有码.json"           
 
 START_PAGE    = 1
-MAX_PAGE      = 50    # 既然测通了，可以直接恢复到 50 页
+MAX_PAGE      = 1502    # 既然测通了，可以直接恢复到 50 页
 MAX_WORKERS   = 3     # 🎯 再次降低并发到 3，避免把对方服务器冲到 500 崩溃
 # ====================================================
 
