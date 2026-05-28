@@ -1,9 +1,7 @@
 name: 自动更新auto_crawl JSON 数据
 
 on:
-  schedule:
-    # 每天北京时间早上 6 点自动运行一次 (UTC 时间 22:00)
-    - cron: '0 22 * * *'
+
   workflow_dispatch: # 支持你在 GitHub 网页上人肉手动点按钮触发
 
 jobs:
